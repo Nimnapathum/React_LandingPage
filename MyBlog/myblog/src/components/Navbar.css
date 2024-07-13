@@ -1,0 +1,24 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 120px;
+    color: black;
+    padding: 20px;
+}
+
+.navbar{
+    display: flex;
+    gap: 20px;
+    font-family: Outfit;
+    align-items: center;
+    list-style: none;
+    font-size: 18px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
