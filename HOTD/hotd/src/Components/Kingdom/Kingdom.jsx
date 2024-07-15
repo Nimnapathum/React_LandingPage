@@ -6,14 +6,30 @@ import c2 from './../../assets/c2.jpeg'
 import c3 from './../../assets/c3.jpeg'
 import c4 from './../../assets/c4.jpeg'
 import c5 from './../../assets/c5.jpeg'
+import { useRef } from 'react'
 
 const Kingdom = () => {
+    const slider = useRef()
+    let tX = 0;
+
+    const slideForward = () =>{
+        if(tX > -50){
+            tX -= 25
+        }
+        slider.current.style.transform = `translateX(${tX}%)`
+    }
+    const slideBackward = () =>{
+        if(tX < 0){
+            tX += 25
+        }
+        slider.current.style.transform = `translateX(${tX}%)`
+    }
   return (
     <div className='kingdom'>
-        <img src={left} alt='' className='prev-btn'></img>
-        <img src={right} alt='' className='next-btn'></img>
+        <img src={left} alt='' className='prev-btn' onClick={slideBackward}></img>
+        <img src={right} alt='' className='next-btn' onClick={slideForward}></img>
         <div className="slider">
-            <ul>
+            <ul ref={slider}>
                 <li>
                     <div className='slide'>
                         <div className="user-info">

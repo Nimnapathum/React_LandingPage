@@ -6,7 +6,7 @@ import overlay from './../../assets/sigil.png'
 
 const Members = () => {
   return (
-    <div className='programs'>
+    <div className='programs' id='about'>
         <div className="program">
             <img src={mem1} alt="" />
             <div className="caption">
