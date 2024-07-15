@@ -9,8 +9,7 @@
 
 .navbar{
     display: flex;
-    gap: 20px;
-    font-family: Outfit;
+    gap: 25px;
     align-items: center;
     list-style: none;
     font-size: 18px;
@@ -19,6 +18,15 @@
 .navbar a{
     text-decoration: none;
     color: #000;
+    display: flex;
     font-weight: bold;
+    align-items: center;
 }
 
+.navbar a:hover{
+    color: #706f6f;
+}
+
+.navbar svg{
+    margin-right: 0.5rem;
+}

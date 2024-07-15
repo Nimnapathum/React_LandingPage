@@ -1,0 +1,15 @@
+lightTheme
+
+#ccd5ae
+#e9edc9
+#fefae0
+#faedcd
+#d4a373
+
+DarkTheme
+
+#0d1321
+#1d2d44
+#3e5c76
+#748cab
+#bfc0c0
