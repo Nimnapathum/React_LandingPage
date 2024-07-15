@@ -1,11 +1,12 @@
-.kingdom{
-  margin: 80px auto;
-  padding: 0 80px;
-  position: relative;  
+.kingdom {
+    margin: 80px auto;
+    padding: 0 80px;
+    position: relative;
 }
 
 
-.next-btn , .prev-btn{
+.next-btn,
+.prev-btn {
     position: absolute;
     top: 50%;
     right: 0;
@@ -17,21 +18,21 @@
     background: #212ea0;
 }
 
-.prev-btn{
+.prev-btn {
     right: auto;
     left: 0;
 }
 
-.next-btn{
+.next-btn {
     left: auto;
     right: 0;
 }
 
-.slider{
-   overflow: hidden; 
+.slider {
+    overflow: hidden;
 }
 
-.slider ul{
+.slider ul {
     display: flex;
     width: 200%;
     overflow-x: hidden;
