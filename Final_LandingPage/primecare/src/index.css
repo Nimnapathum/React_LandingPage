@@ -48,6 +48,11 @@ a{
   color: #fff;
 }
 
+.container.dark{
+  background: #fff;
+}
+
+
 /*---media query----*/
 @media (max-width: 1200px){
   .container{
