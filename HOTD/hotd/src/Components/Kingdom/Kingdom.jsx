@@ -14,13 +14,13 @@ const Kingdom = () => {
 
     const slideForward = () =>{
         if(tX > -50){
-            tX -= 25
+            tX -= 40
         }
         slider.current.style.transform = `translateX(${tX}%)`
     }
     const slideBackward = () =>{
         if(tX < 0){
-            tX += 25
+            tX += 40
         }
         slider.current.style.transform = `translateX(${tX}%)`
     }

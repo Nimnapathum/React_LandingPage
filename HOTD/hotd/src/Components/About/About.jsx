@@ -2,12 +2,14 @@ import './About.css'
 import rayray from './../../assets/pic1.jpeg'
 import play from './../../assets/play.png'
 
-const About = () => {
+const About = ({setPlayState}) => {
   return (
     <div className='about'>
         <div className="about-left">
             <img src={rayray} alt='' className='about-img'/>
-            <img src={play} alt='' className='play-img'/>
+            <img src={play} alt='' className='play-img' onClick={()=>{
+              setPlayState(true)
+            }}/>
         </div>
         <div className="about-right">
             <h3>The Targeryen History</h3>
