@@ -11,7 +11,7 @@ import DarkModeIcon from './../../assets/dark.png';
 const Navbar = ({theme , setTheme}) => {
 
   const toggleMode = () => {
-    theme == 'light' ? setTheme('dark') : setTheme('light')
+    theme === 'light' ? setTheme('dark') : setTheme('light')
   }
 
     const [sticky, setSticky] = useState(false);
